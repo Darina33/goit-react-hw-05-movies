@@ -1,0 +1,23 @@
+.list {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.item {
+  background-color: rgba(100, 100, 100, 0.338);
+  padding: 10px;
+  display: inline-block;
+  border-radius: 20px;
+  max-width: 500px;
+}
+
+.item:hover,
+.item:focus {
+  background-color: rgba(77, 77, 77, 0.557);
+}
+
+.link {
+  text-decoration: none;
+  color: black;
+}

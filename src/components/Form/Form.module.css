@@ -1,0 +1,27 @@
+.form {
+}
+
+.input {
+  padding: 10px 15px;
+  border-radius: 20px;
+  display: inline-block;
+  font-size: 20px;
+  border-color: black;
+}
+
+.btn {
+  margin-left: 25px;
+  margin-bottom: 20px;
+  color: black;
+  background-color: rgba(77, 76, 78, 0.222);
+  padding: 10px 15px;
+  border-radius: 20px;
+  display: inline-block;
+  font-size: 20px;
+  border: none;
+}
+
+.btn:hover,
+.btn:focus {
+  background-color: rgba(77, 77, 77, 0.38);
+}
