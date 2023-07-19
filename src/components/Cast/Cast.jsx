@@ -20,7 +20,9 @@ const Cast = () => {
     fetchCast();
   }, [movieId]);
 
-  return (
+  return cast.length === 0 ? (
+    <p>Sorry, there are no cast</p>
+  ) : (
     <>
       {
         <ul className={css.list}>

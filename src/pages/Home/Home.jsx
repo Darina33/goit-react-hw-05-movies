@@ -7,7 +7,7 @@ import FilmsList from 'components/MovieList/MovieList';
 const Home = () => {
   const [movies, setMovies] = useState([]);
   useEffect(() => {
-    getMoviesTrending('').then(setMovies);
+    getMoviesTrending().then(setMovies);
   }, []);
 
   return (
